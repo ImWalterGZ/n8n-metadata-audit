@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "synthetic_demo": true,
+  "captured_at": "2026-10-06T12:00:00Z",
+  "source": "Synthetic example; no customer data",
+  "workflows": [
+    {"id": "demo-orders", "name": "Demo · Order sync", "active": true, "inspected": true, "error_workflow": "demo-alert", "continues_on_error": []},
+    {"id": "demo-alert", "name": "Demo · Error handler", "active": false, "has_error_trigger": true},
+    {"id": "demo-digest", "name": "Demo · Morning digest", "active": true, "inspected": true, "error_workflow": null, "continues_on_error": []},
+    {"id": "demo-leads", "name": "Demo · Lead routing", "active": true, "inspected": true, "error_workflow": "demo-alert", "continues_on_error": ["Optional enrichment"]}
+  ],
+  "executions": [
+    {"id": "demo-1", "workflow_id": "demo-orders", "status": "error", "started_at": "2026-10-05T10:00:00Z"},
+    {"id": "demo-2", "workflow_id": "demo-orders", "status": "success", "started_at": "2026-10-06T10:00:00Z"}
+  ],
+  "coverage": {"workflow_inventory_complete": true, "error_window_start": "2026-10-01T00:00:00Z", "error_window_complete": true, "error_count": 1}
+}

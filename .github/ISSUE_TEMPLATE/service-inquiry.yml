@@ -1,0 +1,25 @@
+name: Diagnostic report inquiry
+description: Express interest without sharing private workflow data.
+title: "Diagnostic report inquiry"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include workflow exports, credentials, customer data, screenshots of private systems, or contact details. This is an inquiry, not a purchase."
+  - type: dropdown
+    id: count
+    attributes:
+      label: Approximate workflow count
+      options:
+        - "1–5"
+        - "6–10"
+        - "More than 10"
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: General goal
+      description: Describe the type of help, without identifying any customer or private system.
+    validations:
+      required: true
