@@ -1,6 +1,6 @@
-name: Diagnostic report inquiry
-description: Express interest without sharing private workflow data.
-title: "Diagnostic report inquiry"
+name: Automation inquiry
+description: Describe a specific automation need without sharing private data.
+title: "Automation inquiry"
 labels: []
 body:
   - type: markdown

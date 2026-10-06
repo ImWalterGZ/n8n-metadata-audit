@@ -41,17 +41,11 @@ These are diagnostic findings for review. Other alerting mechanisms may exist. A
 
 Reports retain workflow names and IDs, so they can still contain confidential metadata. Run locally and share intentionally. Do not upload workflow exports, API keys, customer information or execution payloads to GitHub issues.
 
-## Recurring diagnostic reports — proposed pilot
+## Commercial service status
 
-For an agency or business that wants someone to review the reports and organize the next actions, the proposed pilot is **$149 USD total per month**, including any applicable taxes and provider fees, for:
+The original proposed diagnostic-report pilot has been withdrawn. This tool remains free under the MIT license. No paid service has launched and no customer results are claimed.
 
-- Four reviews per monthly service period, covering up to 10 workflows on one instance.
-- One prioritized monthly summary with evidence and recommended next actions.
-- Up to 60 minutes of asynchronous technical triage per service period.
-
-This is periodic review of metadata supplied by the client, not continuous monitoring. Changes, new builds, hosting, API usage and emergency support are outside the pilot. There is no automatic billing or renewal: each month requires a new acceptance. Cancellation can be requested at any time; future work and charges stop. Written seller identity, invoice arrangements, data handling, delivery dates and refund terms must be agreed before accepting payment. No paid service has launched and no customer results are claimed.
-
-To express interest, [open a non-confidential inquiry](https://github.com/ImWalterGZ/n8n-metadata-audit/issues/new?template=service-inquiry.yml). Include only a rough workflow count and your general goal. A private communication channel will be agreed before discussing an actual system. Expressing interest creates no purchase commitment.
+For a non-confidential inquiry about a specific automation problem, use the repository issue form. Do not upload workflow exports, credentials, customer information or execution payloads. Scope and commercial terms would need to be agreed separately before any paid work.
 
 ## Verify
 
